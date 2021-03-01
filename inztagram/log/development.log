@@ -1959,3 +1959,153 @@ Processing by InztagramController#index as HTML
 Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.1ms | Allocations: 4667)
 
 
+Started GET "/" for ::1 at 2021-03-01 10:32:21 +0000
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by InztagramController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/inztagram_controller.rb:6:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering inztagram/index.html.erb within layouts/application
+  Rendered inztagram/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 226)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 344)
+  Rendered shared/_flash.html.erb (Duration: 0.6ms | Allocations: 214)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 7577)
+Completed 200 OK in 54ms (Views: 37.4ms | ActiveRecord: 0.6ms | Allocations: 15857)
+
+
+Started GET "/" for ::1 at 2021-03-01 10:32:28 +0000
+Processing by InztagramController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/inztagram_controller.rb:6:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering inztagram/index.html.erb within layouts/application
+  Rendered inztagram/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 119)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 3854)
+Completed 200 OK in 25ms (Views: 21.5ms | ActiveRecord: 0.3ms | Allocations: 4669)
+
+
+Started GET "/" for ::1 at 2021-03-01 10:32:35 +0000
+Processing by InztagramController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/inztagram_controller.rb:6:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering inztagram/index.html.erb within layouts/application
+  Rendered inztagram/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 113)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 3845)
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 0.3ms | Allocations: 4662)
+
+
+Started GET "/about-us" for ::1 at 2021-03-01 10:32:36 +0000
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 120)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 117)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 3989)
+Completed 200 OK in 21ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 5351)
+
+
+Started GET "/" for ::1 at 2021-03-01 10:32:37 +0000
+Processing by InztagramController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/inztagram_controller.rb:6:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering inztagram/index.html.erb within layouts/application
+  Rendered inztagram/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 119)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 4455)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 0.3ms | Allocations: 5278)
+
+
+Started GET "/about-us" for ::1 at 2021-03-01 10:32:38 +0000
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 111)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 4468)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 4846)
+
+
+Started GET "/" for ::1 at 2021-03-01 10:32:39 +0000
+Processing by InztagramController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/inztagram_controller.rb:6:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering inztagram/index.html.erb within layouts/application
+  Rendered inztagram/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 113)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 3956)
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 0.2ms | Allocations: 4787)
+
+
+Started GET "/" for ::1 at 2021-03-01 10:32:39 +0000
+Processing by InztagramController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/inztagram_controller.rb:6:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering inztagram/index.html.erb within layouts/application
+  Rendered inztagram/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 113)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 3843)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.2ms | Allocations: 4641)
+
+
+Started GET "/" for ::1 at 2021-03-01 10:33:33 +0000
+Processing by InztagramController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/inztagram_controller.rb:6:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering inztagram/index.html.erb within layouts/application
+  Rendered inztagram/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 113)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 3843)
+Completed 200 OK in 19ms (Views: 15.3ms | ActiveRecord: 0.4ms | Allocations: 4641)
+
+
+Started GET "/about-us" for ::1 at 2021-03-01 10:33:34 +0000
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 111)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 4469)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 4846)
+
+
+Started GET "/" for ::1 at 2021-03-01 10:33:34 +0000
+Processing by InztagramController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/inztagram_controller.rb:6:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering inztagram/index.html.erb within layouts/application
+  Rendered inztagram/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 67)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 113)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 4486)
+Completed 200 OK in 18ms (Views: 14.9ms | ActiveRecord: 0.2ms | Allocations: 5285)
+
+
